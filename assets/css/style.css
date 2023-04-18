@@ -1,0 +1,63 @@
+@import url("../fonts/TripSans-Regular.ttf");
+
+body {
+  width: 1280px;
+  margin: 0 auto;
+  font-family: "Trip Sans";
+}
+/* --------HEADER--------- */
+header {
+  height: 40px;
+  padding: 10px 24px;
+  border-bottom: black solid 1px;
+  display: flex;
+}
+header div {
+  display: flex;
+  align-items: center;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+}
+#logo_header {
+  height: 100%;
+}
+#search_nav {
+  height: 38px;
+  width: 350px;
+  border-radius: 25px;
+  margin-left: 28px;
+  border: #e0e0e0 solid 2px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#shortcut_icone {
+  margin-right: 15px;
+}
+
+.icon {
+  height: 17px;
+  margin-left: 19px;
+  margin-right: 6px;
+}
+
+#shortcut_review {
+  border: #040404 solid 2px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#connect {
+  height: 100%;
+  width: 150px;
+  border-radius: 25px;
+  background-color: #040404;
+  align-self: flex-end;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
